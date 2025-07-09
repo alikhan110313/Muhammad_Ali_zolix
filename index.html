@@ -1,248 +1,776 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Developer Ali</title>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6lxIgzSGEdn_5n5VJjdlfesIGL3WgvMycGg&s">
     <meta charset="UTF-8">
-     <link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6lxIgzSGEdn_5n5VJjdlfesIGL3WgvMycGg&s">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style type="text/css">body { cursor: url('data:image/x-icon;base64,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'), auto; }</style>
-    
-    
-   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Ali zolix</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-    .w3-row-padding img {margin-bottom: 12px}
-    /* Set the width of the sidebar to 120px */
-    .w3-sidebar {width: 120px;background: #222;}
-    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-    #main {margin-left: 120px}
-    /* Remove margins from "page content" on small screens */
-    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: #f8fafc;
+            overflow-x: hidden;
+            perspective: 1000px;
+        }
+        
+        .card-3d {
+            transform-style: preserve-3d;
+            transition: all 0.5s ease;
+        }
+        
+        .card-3d:hover {
+            transform: rotateY(10deg) rotateX(5deg) translateY(-10px);
+        }
+        
+        .floating {
+            animation: floating 6s ease-in-out infinite;
+        }
+        
+        @keyframes floating {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0px); }
+        }
+        
+        .glow {
+            box-shadow: 0 0 20px rgba(99, 102, 241, 0.5);
+        }
+        
+        .glow:hover {
+            box-shadow: 0 0 30px rgba(99, 102, 241, 0.8);
+        }
+        
+        .skill-bar {
+            height: 8px;
+            background: #334155;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .skill-progress {
+            height: 100%;
+            background: linear-gradient(90deg, #6366f1, #8b5cf6);
+            border-radius: 4px;
+            transition: width 1.5s ease;
+        }
+        
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .project-card {
+            transform: translateZ(0);
+            transition: transform 0.5s ease;
+        }
+        
+        .project-card:hover {
+            transform: translateZ(20px);
+        }
+        
+        .nav-link {
+            position: relative;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background: #6366f1;
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        .mobile-menu {
+            transform: translateX(100%);
+            transition: transform 0.3s ease;
+        }
+        
+        .mobile-menu.open {
+            transform: translateX(0);
+        }
     </style>
-  </head>
-<body class="w3-black">
+</head>
+<body class="min-h-screen">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-opacity-90 backdrop-filter backdrop-blur-lg bg-gray-900 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-2xl font-bold text-indigo-500">itx_lucky110</span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-center space-x-4">
+                        <a href="#home" class="nav-link px-3 py-2 text-sm font-medium text-gray-300 hover:text-white">Home</a>
+                        <a href="#about" class="nav-link px-3 py-2 text-sm font-medium text-gray-300 hover:text-white">About</a>
+                        <a href="#skills" class="nav-link px-3 py-2 text-sm font-medium text-gray-300 hover:text-white">Skills</a>
+                        <a href="#projects" class="nav-link px-3 py-2 text-sm font-medium text-gray-300 hover:text-white">Projects</a>
+                        <a href="#contact" class="nav-link px-3 py-2 text-sm font-medium text-gray-300 hover:text-white">Contact</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button id="menu-toggle" class="text-gray-300 hover:text-white focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="mobile-menu md:hidden fixed inset-y-0 right-0 w-64 bg-gray-900 bg-opacity-95 z-50 p-6">
+            <div class="flex justify-end">
+                <button id="menu-close" class="text-gray-300 hover:text-white focus:outline-none">
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="mt-10 flex flex-col space-y-6">
+                <a href="#home" class="nav-link text-gray-300 hover:text-white text-lg font-medium">Home</a>
+                <a href="#about" class="nav-link text-gray-300 hover:text-white text-lg font-medium">About</a>
+                <a href="#skills" class="nav-link text-gray-300 hover:text-white text-lg font-medium">Skills</a>
+                <a href="#projects" class="nav-link text-gray-300 hover:text-white text-lg font-medium">Projects</a>
+                <a href="#contact" class="nav-link text-gray-300 hover:text-white text-lg font-medium">Contact</a>
+            </div>
+            <div class="mt-12">
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-indigo-500">
+                        <i class="fab fa-github fa-lg"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-indigo-500">
+                        <i class="fab fa-linkedin fa-lg"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-indigo-500">
+                        <i class="fab fa-twitter fa-lg"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-indigo-500">
+                        <i class="fab fa-instagram fa-lg"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
 
-<!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-  <!-- Avatar image in top left corner -->
-  <img src="https://i.postimg.cc/Z5qcFnGX/Untitled-design-13.png" alt="boy" class="w3-image" width="992" height="1108"" style="width:100%">
-  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <i class="fa fa-home w3-xxlarge"></i>
-    <p>HOME</p>
-  </a>
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-user w3-xxlarge"></i>
-    <p>ABOUT</p>
-  </a>
-  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-eye w3-xxlarge"></i>
-    <p>PO</p>
-  </a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-envelope w3-xxlarge"></i>
-    <p>CONTACT</p>
-  </a>
-</nav>
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
+        <div class="absolute inset-0 z-0">
+            <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-indigo-900/10 to-gray-900"></div>
+            <div class="absolute top-0 left-0 w-full h-full opacity-20">
+                <div class="grid grid-cols-5 grid-rows-5 w-full h-full">
+                    <div class="border border-gray-700"></div>
+                    <div class="border border-gray-700"></div>
+                    <div class="border border-gray-700"></div>
+                    <div class="border border-gray-700"></div>
+                    <div class="border border-gray-700"></div>
+                    <div class="border border-gray-700"></div>
+                    <div class="border border-gray-700"></div>
+                    <div class="border border-gray-700"></div>
+                    <div class="border border-gray-700"></div>
+                    <div class="border border-gray-700"></div>
+                    <div class="border border-gray-700"></div>
+                    <div class="border border-gray-700"></div>
+                    <div class="border border-gray-700"></div>
+                    <div class="border border-gray-700"></div>
+                    <div class="border border-gray-700"></div>
+                    <div class="border border-gray-700"></div>
+                    <div class="border border-gray-700"></div>
+                    <div class="border border-gray-700"></div>
+                    <div class="border border-gray-700"></div>
+                    <div class="border border-gray-700"></div>
+                    <div class="border border-gray-700"></div>
+                    <div class="border border-gray-700"></div>
+                    <div class="border border-gray-700"></div>
+                    <div class="border border-gray-700"></div>
+                    <div class="border border-gray-700"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container mx-auto px-6 z-10">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500">
+                        Hi, I'm <span class="text-white">Muhammad Ali</span>
+                    </h1>
+                    <h2 class="text-2xl md:text-3xl font-medium mb-6 text-gray-300">Creative Developer & Designer(freelancer)</h2>
+                    <p class="text-gray-400 mb-8 max-w-lg">
+                       I create immersive digital experiences using cutting-edge technologies, innovative design solutions, and interactive UX/UI to elevate brands and engage users.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#projects" class="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 rounded-lg font-medium transition-all duration-300 transform hover:scale-105">
+                            View My Work
+                        </a>
+                        <a href="#contact" class="px-6 py-3 border border-indigo-600 text-indigo-400 hover:bg-indigo-900/30 rounded-lg font-medium transition-all duration-300 transform hover:scale-105">
+                            Contact Me
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="relative w-64 h-64 md:w-80 md:h-80">
+                        <div class="absolute inset-0 rounded-full bg-indigo-500/20 blur-xl"></div>
+                        <div class="card-3d floating relative w-full h-full rounded-2xl overflow-hidden border-2 border-indigo-500/30">
+                            <img src="https://i.postimg.cc/fLLDDryN/itx-lucky110.jpg' border='0' alt='itx-lucky110" 
+                                 alt="Profile" 
+                                 class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent"></div>
+                            <div class="absolute bottom-0 left-0 p-6">
+                                <h3 class="text-xl font-bold text-white">Muhammad Ali</h3>
+                                <p class="text-gray-300">Full Stack Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="absolute bottom-10 left-0 right-0 flex justify-center">
+            <a href="#about" class="text-gray-400 hover:text-white animate-bounce">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                </svg>
+            </a>
+        </div>
+    </section>
 
-<!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
-  </div>
-</div>
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gradient-to-b from-gray-900 to-gray-800">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500">
+                    About Me
+                </h2>
+                <div class="w-20 h-1 bg-indigo-500 mx-auto"></div>
+            </div>
+            
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/3 mb-10 md:mb-0 flex justify-center">
+                    <div class="relative w-64 h-64">
+                        <div class="absolute inset-0 rounded-full bg-indigo-500/20 blur-xl"></div>
+                        <div class="card-3d relative w-full h-full rounded-2xl overflow-hidden border-2 border-indigo-500/30">
+                            <img src="https://i.postimg.cc/ZnDDhwgC/Muhamad-Ali-zolix.jpg" 
+                                 alt="About" 
+                                 class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="md:w-2/3 md:pl-12">
+                    <h3 class="text-2xl font-bold mb-6 text-white">Who am I?</h3>
+                    <p class="text-gray-400 mb-6">
+                        I'm a full-stack software developer with 5+ years of experience turning ideas into engaging digital products. 
+                        My tech journey started at 15, and since then, I’ve been driven by a passion for solving real-world problems through clean code and thoughtful design.
+                    </p>
+                    <p class="text-gray-400 mb-6">
+                        Skilled in full-stack JavaScript development, I work extensively with React, Node.js, Express, and modern CSS frameworks to build scalable, responsive web apps 
+                        I specialize in building user-centric applications that combine seamless functionality with outstanding user experience
+                    </p>
+                    <p class="text-gray-400 mb-8">
+                        When I'm not developing apps, I enjoy hiking through scenic mountains, diving into sci-fi novels, and experimenting with creative cooking recipes
+                    </p>
+                    
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="bg-gray-800/50 p-4 rounded-lg border border-gray-700 hover:border-indigo-500 transition-all">
+                            <div class="flex items-center mb-2">
+                                <div class="w-10 h-10 rounded-full bg-indigo-500/20 flex items-center justify-center mr-3">
+                                    <i class="fas fa-code text-indigo-400"></i>
+                                </div>
+                                <h4 class="font-bold text-white">Development</h4>
+                            </div>
+                            <p class="text-gray-400 text-sm">
+                                I specialize in building robust and scalable applications using clean, maintainable code that ensures long-term performance and flexibility.
+                            </p>
+                        </div>
+                        <div class="bg-gray-800/50 p-4 rounded-lg border border-gray-700 hover:border-indigo-500 transition-all">
+                            <div class="flex items-center mb-2">
+                                <div class="w-10 h-10 rounded-full bg-indigo-500/20 flex items-center justify-center mr-3">
+                                    <i class="fas fa-paint-brush text-indigo-400"></i>
+                                </div>
+                                <h4 class="font-bold text-white">Design</h4>
+                            </div>
+                            <p class="text-gray-400 text-sm">
+                                Designing beautiful and intuitive user interfaces that elevate user experience and drive engagement
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-800">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500">
+                    My Skills
+                </h2>
+                <div class="w-20 h-1 bg-indigo-500 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-xl font-bold mb-6 text-white">Technical Skills</h3>
+                    
+                    <div class="space-y-6">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-300">JavaScript</span>
+                                <span class="text-gray-400">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-300">React</span>
+                                <span class="text-gray-400">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-300">Node.js</span>
+                                <span class="text-gray-400">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-300">CSS/Tailwind</span>
+                                <span class="text-gray-400">92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-6 text-white">Professional Skills</h3>
+                    
+                    <div class="space-y-6">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-300">Communication</span>
+                                <span class="text-gray-400">96%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-300">Teamwork</span>
+                                <span class="text-gray-400">92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-300">Problem Solving</span>
+                                <span class="text-gray-400">93%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 93%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-300">Creativity</span>
+                                <span class="text-gray-400">99%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 87%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="bg-gray-700/50 p-6 rounded-lg border border-gray-600 hover:border-indigo-500 transition-all transform hover:-translate-y-2">
+                    <div class="text-indigo-400 text-4xl mb-4">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h4 class="font-bold text-white mb-2">JavaScript</h4>
+                    <p class="text-gray-400 text-sm">ES6+, TypeScript, Functional Programming</p>
+                </div>
+                
+                <div class="bg-gray-700/50 p-6 rounded-lg border border-gray-600 hover:border-indigo-500 transition-all transform hover:-translate-y-2">
+                    <div class="text-indigo-400 text-4xl mb-4">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h4 class="font-bold text-white mb-2">React</h4>
+                    <p class="text-gray-400 text-sm">Hooks, Context, Redux, Next.js</p>
+                </div>
+                
+                <div class="bg-gray-700/50 p-6 rounded-lg border border-gray-600 hover:border-indigo-500 transition-all transform hover:-translate-y-2">
+                    <div class="text-indigo-400 text-4xl mb-4">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <h4 class="font-bold text-white mb-2">Node.js</h4>
+                    <p class="text-gray-400 text-sm">Express, REST APIs, GraphQL</p>
+                </div>
+                
+                <div class="bg-gray-700/50 p-6 rounded-lg border border-gray-600 hover:border-indigo-500 transition-all transform hover:-translate-y-2">
+                    <div class="text-indigo-400 text-4xl mb-4">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h4 class="font-bold text-white mb-2">Databases</h4>
+                    <p class="text-gray-400 text-sm">MongoDB, PostgreSQL, Firebase</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- Page Content -->
-<div class="w3-padding-large" id="main">
-  <!-- Header/Home -->
-  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Muhammad Ali.</h1>
-    <p>Graphics Designer and Web Designer and developer of gaming and apps and also AI expert</p>
-    <img src="https://i.postimg.cc/Z5qcFnGX/Untitled-design-13.png" alt="boy" class="w3-image" width="992" height="1108">
-  </header>
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gradient-to-b from-gray-800 to-gray-900">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500">
+                    My Projects
+                </h2>
+                <div class="w-20 h-1 bg-indigo-500 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="project-card bg-gray-800/50 rounded-xl overflow-hidden border border-gray-700 hover:border-indigo-500 transition-all duration-300">
+                    <div class="relative h-48 overflow-hidden">
+                        <img src="https://i.postimg.cc/TYtmn1zv/Screenshot-9.png" 
+                             alt="Project 1" 
+                             class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent"></div>
+                        <div class="absolute top-4 right-4">
+                            <span class="bg-indigo-500 text-white text-xs px-2 py-1 rounded-full">Game</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Game Project</h3>
+                        <p class="text-gray-400 mb-4">
+                           A fully optimized shooting game develop from Unity
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <a href="#" class="text-indigo-400 hover:text-indigo-300 text-sm font-medium">
+                                View Project <i class="fas fa-arrow-right ml-1"></i>
+                            </a>
+                            <div class="flex space-x-2">
+                                <a href="#" class="text-gray-400 hover:text-indigo-400">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="text-gray-400 hover:text-indigo-400">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card bg-gray-800/50 rounded-xl overflow-hidden border border-gray-700 hover:border-indigo-500 transition-all duration-300">
+                    <div class="relative h-48 overflow-hidden">
+                        <img src="https://i.postimg.cc/1zhzFZ3Z/Screenshot-18.png" 
+                             alt="Project 2" 
+                             class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent"></div>
+                        <div class="absolute top-4 right-4">
+                            <span class="bg-indigo-500 text-white text-xs px-2 py-1 rounded-full">Game</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Game Development</h3>
+                        <p class="text-gray-400 mb-4">
+                            A 3d car racing game from Unity
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <a href="#" class="text-indigo-400 hover:text-indigo-300 text-sm font-medium">
+                                View Project <i class="fas fa-arrow-right ml-1"></i>
+                            </a>
+                            <div class="flex space-x-2">
+                                <a href="#" class="text-gray-400 hover:text-indigo-400">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="text-gray-400 hover:text-indigo-400">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card bg-gray-800/50 rounded-xl overflow-hidden border border-gray-700 hover:border-indigo-500 transition-all duration-300">
+                    <div class="relative h-48 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" 
+                             alt="Project 3" 
+                             class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent"></div>
+                        <div class="absolute top-4 right-4">
+                            <span class="bg-indigo-500 text-white text-xs px-2 py-1 rounded-full">Full Stack</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Social Media Dashboard</h3>
+                        <p class="text-gray-400 mb-4">
+                            A responsive social media analytics dashboard featuring interactive charts, real-time insights, and customizable dark mode support.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <a href="#" class="text-indigo-400 hover:text-indigo-300 text-sm font-medium">
+                                View Project <i class="fas fa-arrow-right ml-1"></i>
+                            </a>
+                            <div class="flex space-x-2">
+                                <a href="#" class="text-gray-400 hover:text-indigo-400">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="text-gray-400 hover:text-indigo-400">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="#" class="inline-flex items-center px-6 py-3 border border-indigo-600 text-indigo-400 hover:bg-indigo-900/30 rounded-lg font-medium transition-all duration-300 transform hover:scale-105">
+                    View All Projects <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
 
-  <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-light-grey">Muhammad Ali</h2>
-    <hr style="width:200px" class="w3-opacity">
-    <p>I am Muhammad Ali an developer of apps,games and website and i am also an photo graphics designer and an AI expert i made many AI chat bots if you want to contact me so scroll the page to find my contact infomation.
-    </p>
-    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-    <p class="w3-wide">Developer</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
-    </div>
-    <p class="w3-wide">Web Design</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
-    </div>
-    <p class="w3-wide">Photoshop</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
-    </div><br>
-    
-    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">11+</span><br>
-        Partners
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">55+</span><br>
-        Projects Done
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">89+</span><br>
-        Happy Clients
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">150+</span><br>
-        Meetings
-      </div>
-    </div>
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-900">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500">
+                    Get In Touch
+                </h2>
+                <div class="w-20 h-1 bg-indigo-500 mx-auto"></div>
+            </div>
+            
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h3 class="text-2xl font-bold mb-6 text-white">Let's Talk</h3>
+                    <p class="text-gray-400 mb-8 max-w-md">
+                        Have a project idea or want to explore potential collaboration opportunities? Let’s connect and bring your vision to life 
+                        Feel free to reach out—I’m always open to new projects and will get back to you as soon as possible.
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 rounded-full bg-indigo-500/20 flex items-center justify-center mr-4">
+                                <i class="fas fa-envelope text-indigo-400"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-white mb-1">Personal Email</h4>
+                                <a href="mailto:alikhan110313@gmail.com" class="text-gray-400 hover:text-indigo-400">alikhan110313@gmail.com</a>
+                            </div>
+                        </div>
+                        <h4 class="font-bold text-white mb-1">Prosessional Email</h4>
+                                <a href="mailto:ali.web@zolix.co" class="text-gray-400 hover:text-indigo-400">ali.web@zolix.co</a>
+                            </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 rounded-full bg-indigo-500/20 flex items-center justify-center mr-4">
+                                <i class="fas fa-phone-alt text-indigo-400"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-white mb-1">Phone</h4>
+                                <a href="tel:+923166774551" class="text-gray-400 hover:text-indigo-400">+92 (3166) 774-551</a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 rounded-full bg-indigo-500/20 flex items-center justify-center mr-4">
+                                <i class="fas fa-map-marker-alt text-indigo-400"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-white mb-1">Location</h4>
+                                <p class="text-gray-400">Multan, Pakistan</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <h4 class="font-bold text-white mb-4">Follow Me</h4>
+                        <div class="flex space-x-4">
+                            <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:text-indigo-400 hover:bg-gray-700">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:text-indigo-400 hover:bg-gray-700">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:text-indigo-400 hover:bg-gray-700">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:text-indigo-400 hover:bg-gray-700">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2 md:pl-12">
+                    <form class="bg-gray-800/50 p-8 rounded-xl border border-gray-700">
+                        <div class="mb-6">
+                            <label for="name" class="block text-gray-300 mb-2">Your Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-white placeholder-gray-500">
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="email" class="block text-gray-300 mb-2">Your Email</label>
+                            <input type="email" id="email" class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-white placeholder-gray-500">
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="subject" class="block text-gray-300 mb-2">Subject</label>
+                            <input type="text" id="subject" class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-white placeholder-gray-500">
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-300 mb-2">Your Message</label>
+                            <textarea id="message" rows="5" class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-white placeholder-gray-500"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full px-6 py-3 bg-indigo-600 hover:bg-indigo-700 rounded-lg font-medium text-white transition-all duration-300 transform hover:scale-105">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <button class="w3-button w3-light-grey w3-padding-large w3-section">
-      <a class="fa fa-download" href= "https://www.scribd.com/document/825149673/Muhammad-Ali-s-Resume" target="_blank"></a> Download Resume
-    </button>
-    
-    <!-- Grid for pricing tables -->
-    <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">5GB Storage</li>
-          <li class="w3-padding-16">Mail Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 10</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Message Me</button>
-          </li>
-        </ul>
-      </div>
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800 py-8">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <span class="text-2xl font-bold text-indigo-500">itx_lucky110</span>
+                </div>
+                
+                <div class="text-gray-400 text-sm mb-4 md:mb-0">
+                    © 2025 Muhammad Ali. All rights reserved.
+                </div>
+                
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-indigo-400">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-indigo-400">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-indigo-400">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-indigo-400">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-      <div class="w3-half">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">50GB Storage</li>
-          <li class="w3-padding-16">Endless Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 25</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Message Me</button>
-          </li>
-        </ul>
-      </div>
-    <!-- End Grid/Pricing tables -->
-    </div>
-    
-    <!-- Testimonials -->
-    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
-    <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
-    <p>Muhammad Ali saved us from a web disaster.</p><br>
-    
-    <img src="https://www.w3schools.com/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
-    <p>No one is better than Muhammad Ali.</p>
-  <!-- End About Section -->
-  </div>
-  
-  <!-- Portfolio Section -->
-  <div class="w3-padding-64 w3-content" id="photos">
-    <h2 class="w3-text-light-grey">Portfolio</h2>
-    <hr style="width:200px" class="w3-opacity">
-
-    <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">
-        <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
-        <img src="https://www.w3schools.com/w3images/rocks.jpg" style="width:100%">
-        <img src="https://www.w3schools.com/w3images/sailboat.jpg" style="width:100%">
-      </div>
-
-      <div class="w3-half">
-        <img src="https://www.w3schools.com/w3images/underwater.jpg" style="width:100%">
-        <img src="https://www.w3schools.com/w3images/chef.jpg" style="width:100%">
-        <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
-        <img src="https://www.w3schools.com/w3images/p6.jpg" style="width:100%">
-      </div>
-    <!-- End photo grid -->
-    </div>
-  <!-- End Portfolio Section -->
-  </div>
-
-  <!-- Contact Section -->
-  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-    <h2 class="w3-text-light-grey">Contact Me</h2>
-    <hr style="width:200px" class="w3-opacity">
-
-    <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>Multan, Pakistan</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +923166774551</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: alikhan110313@gmail.com </p>
-    </div><br>
-    <p>Let's get in touch. Send me a message:</p>
-
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
-      <p>
-        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-          <a class="fa fa-paper-plane" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCHrhTwzdLmpxpNWXXKCPZJtnJZJwjSzqSgXrvqPdnGvShxwTMTGKlJglVRlFsMvRjBTCZXB"></> SEND MESSAGE
-        </button>
-      
-    </form>
-  <!-- End Contact Section -->
-  </div>
-  
-<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
-<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-  <a class="fab fa-facebook w3-hover-opacity" href="https://www.facebook.com/profile.php?id=100073777184955" target="_facebook" ></a>
-  <a class="fab fa-instagram w3-hover-opacity" href="https://www.instagram.com/itx_ali_khan_110/" target="_instagram"></a>
-  <a class="fab fa-snapchat w3-hover-opacity" href= "https://snapchat.com/t/a98Lukwd" target="_snapchat"></a>
-  <a class="fab fa-tiktok w3-hover-opacity" href="https://www.tiktok.com/@alibrands11?lang=en"></a>
-  
-  <i class="fab fa-twitter w3-hover-opacity"></i>
-  <i class="fab fa-thread w3-hover-opacity"></i>
-  
-  
- 
- <a class="w3-button w3-round-xxlarge w3-small w3-light-grey" href="https://aligames110.netlify.app/" target="_blank">Play My Games</a>
-  <a class="w3-button w3-round-xxlarge w3-small w3-light-grey" href="https://pump.fun/coin/82hu6p2887aWUcYMYMEFFm2FdgYrBSvZcRNPd3APpump" target="_blank">Trade My Coin</a>
- <p>tap 👆this links to view my accounts</p>
- <p>DEVELOP & DESIGN BY Muhammad Ali💖</p>
- <div class="cursor"></div>
-<script>
-    const cursor = document.querySelector('.cursor');
-    document.addEventListener('mousemove', (e) => {
-        cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
-    });
-</script>
-
- 
- <!-- End footer -->
-</footer>
-<h2>Copyright © 2025. All Rights Reserved By Alikhan110313@gmail.com</h2>
-
-<!-- END PAGE CONTENT -->
-</div>
-
-
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menu-toggle');
+        const menuClose = document.getElementById('menu-close');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.add('open');
+        });
+        
+        menuClose.addEventListener('click', () => {
+            mobileMenu.classList.remove('open');
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                mobileMenu.classList.remove('open');
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        
+        // 3D card effect on mouse move
+        const cards = document.querySelectorAll('.card-3d');
+        
+        cards.forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                const xAxis = (window.innerWidth / 2 - e.pageX) / 25;
+                const yAxis = (window.innerHeight / 2 - e.pageY) / 25;
+                card.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg) translateY(-10px)`;
+            });
+            
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'rotateY(0deg) rotateX(0deg) translateY(0)';
+            });
+        });
+        
+        // Animate skill bars on scroll
+        const skillBars = document.querySelectorAll('.skill-progress');
+        
+        function animateSkillBars() {
+            skillBars.forEach(bar => {
+                const width = bar.style.width;
+                bar.style.width = '0';
+                setTimeout(() => {
+                    bar.style.width = width;
+                }, 100);
+            });
+        }
+        
+        // Intersection Observer for scroll animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    if (entry.target.id === 'skills') {
+                        animateSkillBars();
+                    }
+                    entry.target.classList.add('animate-fadeIn');
+                }
+            });
+        }, { threshold: 0.1 });
+        
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
 </body>
 </html>
